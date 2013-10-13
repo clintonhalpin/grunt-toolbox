@@ -11,15 +11,22 @@ module.exports = function(grunt) {
                 }
             },
             watch: {
-                styles: {
-                    files: [ 'public/assets/stylesheets/style.less' ],
-                    tasks: [ 'less' ]
-                },
                 options: {
                     livereload: true,
-                }
+                },
+                css: {
+                    files: ['public/assets/stylesheets/*.less'],
+                    tasks: ['less']
+                },
+                src: {
+                    files: ['public/*.{php,html}', 'public/assets/javascripts/*.js', 'public/assets/images/*.{png,jpg,jpeg,webp,svg}'],
+                    options: {
+                        livereload: true,
+                    },
+                },
             }
     });
+
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.registerTask('default', [ 'watch', 'less' ]);
