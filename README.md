@@ -1,5 +1,5 @@
-# Static Boiler Plate
-Boiler plate for creating prototypes, utilizing Grunt to handle livereload and less compiling.
+# Static Boilerplate
+Boilerplate for creating prototypes, utilizing Grunt to handle livereload and less compiling.
 # Get started
 Clone this repo
 
