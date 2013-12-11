@@ -4,7 +4,7 @@ Boilerplate for creating prototypes, utilizing Grunt to handle livereload and le
 Clone this repo
 
 ```
-$ git clone git@github.com:clintonhalpin/static-boilerplate.git {{ your-new-project }}
+$ git clone git@github.com:clintonhalpin/grunt-toolbox.git {{ your-new-project }}
 
 ```
 
